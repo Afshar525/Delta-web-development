@@ -1,0 +1,51 @@
+.container {
+    width: 600px;
+    height: 300px;
+    background-color: yellow;
+    display: inline-grid;
+    /* grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 200px 200px 200px ; */
+    /* grid-template-columns: auto auto auto; */
+
+    /* grid-template-rows: repeat(4, 1fr); */
+    /* Second method to write repeat */
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    /* short Form */
+    grid-gap: 10px 20px;
+    /* justify-items: center;
+    align-items: center; */
+    place-items: center;
+}
+
+.item {
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.one {
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    /* short */
+    /* grid-column: 1/4; */
+
+    /* Another method */
+    /* grid-column: 1/ span 2; */
+
+    /* justify-self: end;
+    align-self: start; */
+    /* Another Method */
+    place-self: start;
+}
+
+.two {
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+    /* short */
+    /* grid-row: 1/3; */
+}

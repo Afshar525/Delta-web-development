@@ -1,0 +1,39 @@
+*{
+   font-family: Georgia;
+}
+
+/* body{
+    background-color: wheat;
+ } */
+ 
+ h1{
+    text-align: center;
+ }
+
+ h3{
+    text-align: center;
+    color: black;
+ }
+
+ h4{
+    text-align: center;
+ }
+
+ p{
+    text-align: center;
+    color: brown;
+ }
+
+ a{
+   text-decoration: none;
+   color: green;
+ }
+
+ button{
+   background-color: white;
+   color: blueviolet;
+ }
+
+ span{
+   text-decoration: underline;
+ }

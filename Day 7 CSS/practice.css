@@ -1,0 +1,43 @@
+#outer {
+    border: 2px solid black;
+    height: 200px;
+    width: 70px;
+}
+
+.a {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color:red ;
+    border-radius: 50%;
+    
+}
+
+.b{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.c{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+h2{
+    display: inline;
+    background-color: pink;
+}
+
+span{
+    display: block;
+    background-color: red;
+}
