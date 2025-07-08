@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 1500px;
+    background: rgba(0, 0, 0, 0.5);
+    background: url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    
+}
+
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+
+.icons {
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.menu {
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: orange;
+}
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 270px
+        /* margin-top: 27px; */
+
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+.btn {
+    width: 100px;
+    height: 40px;
+    border: 2px solid #ff7200;
+    background: #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 14px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par {
+    font-family: Arial;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding-left: 20px;
+    margin-top: 13%;
+    letter-spacing: 2px;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+
+.cn:hover {
+    background: #fff;
+}
+
+.content span {
+    color: #ff7200;
+    font-size: 2.75rem;
+}
+
+.form {
+    width: 250px;
+    height: 380px;
+    background: #000;
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 4px;
+    font-size: 22px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    color: #fff;
+    border-bottom: 1px solid #ff7200;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial, ;
+}
+
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: #000;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-weight: bold;
+}
+
+.btnn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icons1 {
+    text-align: center;
+    margin-left: 18px;
+}
+
+.icons1 i {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;  
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.icons1 i:hover {
+    color: #ff7200;
+    cursor: pointer; 
+    opacity: 0.8;
+}
+
+
+/* responsive design */
+
+
+
